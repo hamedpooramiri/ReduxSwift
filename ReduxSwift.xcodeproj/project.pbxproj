@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C607DD62B1B0007005BB4E3 /* CompositionRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C607DD52B1B0007005BB4E3 /* CompositionRoot.swift */; };
+		1C895EDC2B1AC01C006AB40C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C895EDB2B1AC01C006AB40C /* Movie.swift */; };
 		1CB424C92B1A31FB00718312 /* ReduxSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB424C82B1A31FB00718312 /* ReduxSwiftApp.swift */; };
-		1CB424CB2B1A31FB00718312 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB424CA2B1A31FB00718312 /* ContentView.swift */; };
+		1CB424CB2B1A31FB00718312 /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB424CA2B1A31FB00718312 /* MovieView.swift */; };
 		1CB424CD2B1A31FD00718312 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB424CC2B1A31FD00718312 /* Assets.xcassets */; };
 		1CB424D02B1A31FD00718312 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB424CF2B1A31FD00718312 /* Preview Assets.xcassets */; };
+		1CB424D82B1A455900718312 /* ReduxState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB424D72B1A455900718312 /* ReduxState.swift */; };
+		1CB424DA2B1A45BE00718312 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB424D92B1A45BE00718312 /* AppState.swift */; };
+		1CB424DE2B1A46BE00718312 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB424DD2B1A46BE00718312 /* AppReducer.swift */; };
+		1CB424E12B1A47B600718312 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB424E02B1A47B600718312 /* Action.swift */; };
+		1CB424E32B1A48EB00718312 /* MoviesState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB424E22B1A48EB00718312 /* MoviesState.swift */; };
+		1CB424E52B1A493A00718312 /* MoviesReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB424E42B1A493A00718312 /* MoviesReducer.swift */; };
+		1CB424E72B1A5A9900718312 /* FetchMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB424E62B1A5A9900718312 /* FetchMovies.swift */; };
+		1CB424EA2B1A5B4900718312 /* MiddleWare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB424E92B1A5B4900718312 /* MiddleWare.swift */; };
+		1CB424EC2B1A5CF300718312 /* MoviesMiddleWare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB424EB2B1A5CF300718312 /* MoviesMiddleWare.swift */; };
+		1CB424EE2B1A5DAD00718312 /* SetMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB424ED2B1A5DAD00718312 /* SetMovies.swift */; };
+		1CB424F02B1A804C00718312 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB424EF2B1A804C00718312 /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C607DD52B1B0007005BB4E3 /* CompositionRoot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionRoot.swift; sourceTree = "<group>"; };
+		1C895EDB2B1AC01C006AB40C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		1CB424C52B1A31FB00718312 /* ReduxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReduxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB424C82B1A31FB00718312 /* ReduxSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxSwiftApp.swift; sourceTree = "<group>"; };
-		1CB424CA2B1A31FB00718312 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1CB424CA2B1A31FB00718312 /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
 		1CB424CC2B1A31FD00718312 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CB424CF2B1A31FD00718312 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1CB424D72B1A455900718312 /* ReduxState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxState.swift; sourceTree = "<group>"; };
+		1CB424D92B1A45BE00718312 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		1CB424DD2B1A46BE00718312 /* AppReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
+		1CB424E02B1A47B600718312 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		1CB424E22B1A48EB00718312 /* MoviesState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesState.swift; sourceTree = "<group>"; };
+		1CB424E42B1A493A00718312 /* MoviesReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesReducer.swift; sourceTree = "<group>"; };
+		1CB424E62B1A5A9900718312 /* FetchMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchMovies.swift; sourceTree = "<group>"; };
+		1CB424E92B1A5B4900718312 /* MiddleWare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleWare.swift; sourceTree = "<group>"; };
+		1CB424EB2B1A5CF300718312 /* MoviesMiddleWare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesMiddleWare.swift; sourceTree = "<group>"; };
+		1CB424ED2B1A5DAD00718312 /* SetMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMovies.swift; sourceTree = "<group>"; };
+		1CB424EF2B1A804C00718312 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +58,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C895EDA2B1AC010006AB40C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C895EDB2B1AC01C006AB40C /* Movie.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C895EDD2B1AC0B1006AB40C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1CB424CA2B1A31FB00718312 /* MovieView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		1CB424BC2B1A31FB00718312 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +93,11 @@
 		1CB424C72B1A31FB00718312 /* ReduxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				1C607DD52B1B0007005BB4E3 /* CompositionRoot.swift */,
 				1CB424C82B1A31FB00718312 /* ReduxSwiftApp.swift */,
-				1CB424CA2B1A31FB00718312 /* ContentView.swift */,
+				1C895EDD2B1AC0B1006AB40C /* Views */,
+				1C895EDA2B1AC010006AB40C /* Models */,
+				1CB424D62B1A453700718312 /* Store */,
 				1CB424CC2B1A31FD00718312 /* Assets.xcassets */,
 				1CB424CE2B1A31FD00718312 /* Preview Content */,
 			);
@@ -65,6 +110,56 @@
 				1CB424CF2B1A31FD00718312 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1CB424D62B1A453700718312 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				1CB424EF2B1A804C00718312 /* Store.swift */,
+				1CB424E82B1A5B3100718312 /* MiddleWare */,
+				1CB424DF2B1A47AA00718312 /* Action */,
+				1CB424DC2B1A46A000718312 /* Reducer */,
+				1CB424DB2B1A45F400718312 /* State */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		1CB424DB2B1A45F400718312 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				1CB424D72B1A455900718312 /* ReduxState.swift */,
+				1CB424D92B1A45BE00718312 /* AppState.swift */,
+				1CB424E22B1A48EB00718312 /* MoviesState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		1CB424DC2B1A46A000718312 /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				1CB424DD2B1A46BE00718312 /* AppReducer.swift */,
+				1CB424E42B1A493A00718312 /* MoviesReducer.swift */,
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
+		1CB424DF2B1A47AA00718312 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				1CB424E02B1A47B600718312 /* Action.swift */,
+				1CB424E62B1A5A9900718312 /* FetchMovies.swift */,
+				1CB424ED2B1A5DAD00718312 /* SetMovies.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		1CB424E82B1A5B3100718312 /* MiddleWare */ = {
+			isa = PBXGroup;
+			children = (
+				1CB424E92B1A5B4900718312 /* MiddleWare.swift */,
+				1CB424EB2B1A5CF300718312 /* MoviesMiddleWare.swift */,
+			);
+			path = MiddleWare;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +232,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CB424CB2B1A31FB00718312 /* ContentView.swift in Sources */,
+				1C895EDC2B1AC01C006AB40C /* Movie.swift in Sources */,
+				1CB424E72B1A5A9900718312 /* FetchMovies.swift in Sources */,
+				1CB424E32B1A48EB00718312 /* MoviesState.swift in Sources */,
+				1CB424CB2B1A31FB00718312 /* MovieView.swift in Sources */,
+				1CB424E12B1A47B600718312 /* Action.swift in Sources */,
+				1CB424E52B1A493A00718312 /* MoviesReducer.swift in Sources */,
 				1CB424C92B1A31FB00718312 /* ReduxSwiftApp.swift in Sources */,
+				1C607DD62B1B0007005BB4E3 /* CompositionRoot.swift in Sources */,
+				1CB424D82B1A455900718312 /* ReduxState.swift in Sources */,
+				1CB424F02B1A804C00718312 /* Store.swift in Sources */,
+				1CB424EC2B1A5CF300718312 /* MoviesMiddleWare.swift in Sources */,
+				1CB424EA2B1A5B4900718312 /* MiddleWare.swift in Sources */,
+				1CB424EE2B1A5DAD00718312 /* SetMovies.swift in Sources */,
+				1CB424DA2B1A45BE00718312 /* AppState.swift in Sources */,
+				1CB424DE2B1A46BE00718312 /* AppReducer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
